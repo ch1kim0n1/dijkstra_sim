@@ -29,33 +29,6 @@
 1. install the needed libraries from `requirements.txt`
 2. run `game.py`
 
-## How to Use
-
-### Getting Started
-
-1. **Launch the Application**
-
-   - Run `python game.py`
-   - Read the splash screen instructions
-   - Press any key to continue
-
-2. **Set Up Your Scenario**
-
-   - **Left-click** on any empty cell to place the green **start point**
-   - **Right-click** on any empty cell to place the red **end point**
-   - **Middle-click** or **Shift+click** on empty cells to create blue **barriers**
-
-3. **Run the Algorithm**
-
-   - Press **Spacebar** to start the pathfinding visualization
-   - Watch as yellow cells show the algorithm's exploration
-   - The final path will be highlighted in orange/gold
-
-4. **Experiment**
-   - Press **R** to reset and try different configurations
-   - Use **1-5** keys to adjust animation speed
-   - Create mazes and complex obstacle patterns
-
 ### Understanding the Visualization
 
 | Color         | Meaning                                   |
