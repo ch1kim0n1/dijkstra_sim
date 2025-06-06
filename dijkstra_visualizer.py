@@ -61,7 +61,7 @@ class DijkstraVisualizer:
         
         # Set up the display
         self.win = pygame.display.set_mode((self.WIDTH, self.HEIGHT))
-        pygame.display.set_caption("Dijkstra's Pathfinding Simulator")
+        pygame.display.set_caption("dijkstra_sim")
         
         # Initialize components
         self.clock = pygame.time.Clock()

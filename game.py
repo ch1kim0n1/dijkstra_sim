@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from dijkstra_visualizer import main
 
 if __name__ == "__main__":

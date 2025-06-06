@@ -201,7 +201,7 @@ class UI:
         Returns:
             int: Height of the drawn title
         """
-        title = "Dijkstra's Pathfinding Simulator"
+        title = "dijkstra_sim"
         title_text = self.title_font.render(title, True, self.colors['accent'])
         
         # Center the title
@@ -260,7 +260,7 @@ class UI:
         win.fill(self.colors['background'])
         
         # Title
-        title = "Dijkstra's Pathfinding Simulator"
+        title = "dijkstra_sim"
         title_text = self.title_font.render(title, True, self.colors['accent'])
         title_rect = title_text.get_rect()
         title_x = (width - title_rect.width) // 2
